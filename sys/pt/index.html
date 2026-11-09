@@ -1,0 +1,17 @@
+<!doctype html><html lang="pt-PT">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Sys é uma aplicação pessoal para consultar e organizar informação académica e Gmail, com acesso só de leitura e armazenamento local."><title>Sys — Organização académica pessoal</title><link rel="stylesheet" href="../styles.css"></head>
+<body><header class="top"><div class="shell navigation"><a href="./" class="brand" aria-label="Início Sys">S<span>ys</span></a><nav aria-label="Navegação principal"><a href="./" aria-current="page">Início</a><a href="privacy.html">Privacidade</a><a href="terms.html">Termos</a><a href="../">English</a></nav></div></header>
+<main class="shell"><div class="eyebrow">Projeto pessoal independente para Windows</div><h1>A tua informação académica,<br>num único local privado.</h1>
+<p class="lead">O Sys é uma aplicação pessoal de acesso exclusivamente de leitura, que recolhe e organiza informação académica de serviços autorizados pelo utilizador. Os dados são indexados localmente para consulta e pesquisa.</p>
+<div class="links"><a class="button" href="privacy.html">Como tratamos os dados</a><a class="button" href="terms.html">Termos de utilização</a></div>
+<section class="grid" aria-label="Fontes de dados">
+<article class="tile"><h3>IST Fénix</h3><p>Horários, disciplinas, avaliações e histórico académico numa base de dados SQLite local.</p><span class="status">Ligado na versão atual</span></article>
+<article class="tile"><h3>Gmail</h3><p>Mediante autorização explícita, consulta mensagens e metadados para sincronização e pesquisa local. Não envia nem altera emails.</p><span class="status future">Implementado; requer autorização da conta</span></article>
+<article class="tile"><h3>Google Calendar e Drive</h3><p>Integrações futuras para consultar eventos e documentos a que cada conta autorizada tenha acesso, incluindo ficheiros partilhados.</p><span class="status future">Ainda não disponível</span></article>
+</section>
+<section class="prose"><h2>Exclusivamente de leitura</h2><p>O Sys solicita apenas as permissões necessárias. A integração Gmail atual pede <code>gmail.readonly</code>. Cada conta Google é autorizada separadamente e só pode aceder aos dados permitidos à própria conta.</p>
+<h2>Dados no teu computador</h2><p>Na versão atual, o conteúdo sincronizado é guardado numa base SQLite local e os tokens OAuth no Gestor de Credenciais do Windows. Este site é apenas informativo: não tem autenticação, formulários, analítica nem acesso aos dados do utilizador.</p>
+<div class="notice">A utilização de informação recebida das APIs Google Workspace cumpre a <a href="https://developers.google.com/workspace/workspace-api-user-data-developer-policy">Política de Dados de Utilizadores das APIs Google Workspace</a>, incluindo os requisitos de utilização limitada («Limited Use»).</div>
+<h2>Questões ou remoção de dados</h2><p>Contacta <a href="mailto:pedrocarrola2006@gmail.com">pedrocarrola2006@gmail.com</a>. Também podes revogar o acesso nas <a href="https://myaccount.google.com/permissions">permissões da tua Conta Google</a>; as cópias locais têm de ser apagadas separadamente.</p></section>
+</main><footer><div class="shell footer-flex"><p>© 2026 Sys · Projeto pessoal independente, não associado à Google ou ao IST.</p><p><a href="privacy.html">Privacidade</a> · <a href="terms.html">Termos</a> · <a href="../">English</a></p></div></footer>
+</body></html>
